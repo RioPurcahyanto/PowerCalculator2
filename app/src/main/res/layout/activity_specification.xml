@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".SpecificationActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Referensi penggunaan panjang gelombang cahaya fiber optik dan Referensi Maximum Loss Power Splitter"
+        android:textAlignment="center" />
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/referensi_dirjen"
+        android:text="Link to Drive"
+        android:textColor="@color/design_default_color_primary"
+        android:textColorLink="@color/design_default_color_primary_dark" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Referensi Fiber Attenuation"
+        android:textAlignment="center" />
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/referensi_corning_fiber"
+        android:text="Link to Drive"
+        android:textColor="@color/design_default_color_primary"
+        android:textColorLink="@color/design_default_color_primary_dark" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Referensi Splicing Attenuation"
+        android:textAlignment="center" />
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/referensi_splicing"
+        android:text="Link to Drive"
+        android:textColor="@color/design_default_color_primary"
+        android:textColorLink="@color/design_default_color_primary_dark" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Referensi Connector Loss"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/referensi_connector"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Link to Drive"
+        android:textColor="@color/design_default_color_primary"
+        android:textColorLink="@color/design_default_color_primary_dark" />
+</LinearLayout>

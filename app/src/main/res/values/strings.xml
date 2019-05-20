@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Power Calculator</string>
+    <string name="konfigurasi_prompt">Pilih Konfigurasi</string>
+
+    <string-array name="konfigurasi_list">
+        <item>1:4:8</item>
+        <item>1:4</item>
+        <item>1:2</item>
+    </string-array>
+
+    <string name="referensi_fiber">
+        https://drive.google.com/file/d/1B4eLM82YC1X4mU-fDyv8rxSwUW0dCFDB/view?usp=sharing
+    </string>
+
+    <string name="referensi_lossfiber">
+        https://drive.google.com/file/d/1yy3Iu4luo9cI0K_ZPzDTGfUzUAXYEbmM/view?usp=sharing
+    </string>
+
+    <string name="referensi_splices">
+        https://drive.google.com/file/d/1WOmnkBXMTyUmpkmtrbpV8orDRlsua8M-/view?usp=sharing
+    </string>
+
+    <string name="referensi_connector">
+        https://drive.google.com/file/d/1SEvE0omz5BR_PMzeshvn4Rp1hSxoo_FW/view?usp=sharing
+    </string>
+</resources>
